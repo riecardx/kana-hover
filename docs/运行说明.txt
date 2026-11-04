@@ -1,0 +1,15 @@
+KanaHover 0.7.1 便携版 | 2026-11-04
+
+启动方法：
+1. 保留整个 KanaHover-0.7.1-20261104 目录，不能只复制 KanaHover.exe。
+2. 双击本目录 KanaHover.exe。不需要在此 Windows 电脑上安装 Python、Tesseract 或 OpenJTalk。
+3. 程序默认隐藏在系统托盘；右键图标可暂停/恢复自动取词。
+4. Alt+C 截图 OCR；假名弹窗右侧扬声器离线朗读日语原文。
+5. 托盘中 Start with Windows 勾选后注册当前用户登录自动运行；再次点击取消。
+
+首次试用前：请先从托盘退出正在运行的旧版 KanaHover，避免两个版本同时监听取词和 Alt+C。
+
+本目录中 _internal/ 是 Python 运行时、词典、OCR 模型、Tesseract 与 OpenJTalk 依赖文件夹，必须和 EXE 放在一起。
+当前快捷键和语速设置已复制到 EXE 所在目录。如程序放置于 Program Files 等不可写位置，配置保存可能失败。
+开机启动记录 EXE 的完整路径，因此请先将软件放到最终位置，再勾选开机启动。
+本版本按要求只进行了构建和静态资源核验，尚未在干净 Windows 系统中运行测试。

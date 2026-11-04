@@ -1,0 +1,20 @@
+# Versions bundled in the KanaHover local vendor directory
+annotated-types==0.8.0
+comtypes==1.4.17
+keyboard==0.13.5
+numpy==2.5.4
+packaging==26.3
+pillow==13.0.0
+psutil==7.2.2
+pydantic==2.14.2
+pydantic_core==2.50.2
+pyopenjtalk-plus==0.4.1.post10
+pystray==0.19.5
+pytesseract==0.3.13
+pywin32==312
+six==1.17.0
+sudachidict-core==20261015
+SudachiPy==0.7.0
+typing-inspection==0.4.4
+typing_extensions==4.16.0
+uiautomation==2.0.29

@@ -1,0 +1,46 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd.tmp
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Build outputs / logs / local settings
+build/
+dist/
+releases/
+*.log
+*.tmp
+*.bak
+*.spec.bak
+ocr_settings.json
+voice_settings.json
+*.wav
+
+# Editors / OS
+.vscode/
+.idea/
+.vs/
+*.suo
+*.user
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore any accidental old patch/backup artifacts
+main_before_*.py
+main_v*_backup.py
+patch_v*.py
+fix_*.py
+rollback_clipboard_version/
+
+# Vendored binary dependencies are kept on disk, but are too large for plain Git.
+# Recreate them with scripts/setup_vendor.ps1; use Git LFS if committing binaries.
+vendor/python/
+vendor/tesseract/
